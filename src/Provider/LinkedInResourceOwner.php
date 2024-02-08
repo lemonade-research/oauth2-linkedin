@@ -68,7 +68,7 @@ class LinkedInResourceOwner extends GenericResourceOwner
      */
     public function getId()
     {
-        return $this->getAttribute('id');
+        return $this->getAttribute('sub');
     }
 
     /**
